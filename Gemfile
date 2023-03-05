@@ -54,5 +54,6 @@ group :test do
   gem 'faker'
   gem 'jsonapi-rspec'
   gem 'rspec-rails'
+  gem 'shoulda-matchers'
 end
 

@@ -1,0 +1,4 @@
+class PortalOpened < Alert
+
+end
+
