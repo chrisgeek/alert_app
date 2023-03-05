@@ -1,0 +1,9 @@
+<ul>
+<% @alerts.each do |alert| %>
+  <li>Type: <%= alert.type %></li>
+  <li>Origin: <%= alert.origin %></li>
+  <li>Description: <%= alert.description %></li>
+  <li>Tag: <%= alert.tag %></li>
+  <p></p>
+<% end %>
+</ul>
